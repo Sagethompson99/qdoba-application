@@ -1,1 +1,72 @@
 @charset "UTF-8";
+
+body {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+}
+
+h1.title {
+    text-align: center;
+    width: auto;
+}
+
+img.logo {
+    width: 20%;
+    margin: 20 20 0 20;
+}
+
+button.submit {
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: medium;
+    background-color: rgb(249, 157, 28);
+    border: none;
+    width: 100%;
+    padding-top: 20;
+    padding-bottom: 20;
+    text-align: center;
+    max-width: 300;
+    margin: auto;
+    display: block;
+}
+
+.information-header {
+    left: 0;
+    color: rgb(249, 157, 28);
+}
+
+.page-content {
+    margin-top: 30;
+    margin-bottom: 10;
+}
+
+
+div #personal-info-container {
+    display: block;
+    height: auto;
+}
+
+div #job-preference-container {
+    display: none;
+    height: 0%;
+}
+
+div #availability-container {
+    display: none;
+    height: 0%;
+}
+
+div #successful-qualities-container {
+    display: none;
+    height: 0%;
+}
+
+div #work-experience-container {
+    display: none;
+    height: 0%;
+}
+
+div #education-info-container {
+    display: none;
+    height: 0%;
+}
