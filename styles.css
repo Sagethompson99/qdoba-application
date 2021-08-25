@@ -81,3 +81,8 @@ div #education-info-container {
     display: none;
     height: 0%;
 }
+
+div #refrences-container {
+    display:none;
+    height:0%;
+}
