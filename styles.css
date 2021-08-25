@@ -99,6 +99,11 @@ select {
     max-width: 350;
 }
 
+span {
+    display: inline-block;
+    margin-bottom: 2px;
+    padding: 5 8 5 8;
+}
 
 div #personal-info-container {
     display: block;
