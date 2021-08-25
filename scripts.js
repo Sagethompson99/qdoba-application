@@ -46,4 +46,9 @@ function switchPage(increment){
 
         //submit document
     }
+
+function missingInfoCheck(){
+    
+}
+
 }
