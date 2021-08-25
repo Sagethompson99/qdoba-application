@@ -68,8 +68,8 @@ div #availability-container {
 }
 
 div #successful-qualities-container {
-    display: none;
-    height: 0%;
+    display: block;
+    height: auto;
 }
 
 div #work-experience-container {
