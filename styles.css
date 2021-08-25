@@ -152,6 +152,16 @@ span {
     padding: 5 8 5 8;
 }
 
+.availability-widget {
+    background-color: rgb(243, 243, 243);
+    text-align: left;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    max-width: 395px;
+    display: inline-block;
+}
+
 div #personal-info-container {
     display: block;
     height: auto;
@@ -183,6 +193,11 @@ div #education-info-container {
 }
 
 div #references-container {
+    display:none;
+    height:0%;
+}
+
+div #application-complete-container {
     display:none;
     height:0%;
 }
