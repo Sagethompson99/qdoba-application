@@ -87,7 +87,7 @@ select {
 .grouped-container {
     background-color: rgb(238, 238, 238); 
     padding: 10 20 20 20;
-    margin-bottom: 25;
+    margin-bottom: 15;
     border-radius: 8px;
     max-width: 420;
     width: calc(100% - 40px);
