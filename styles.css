@@ -35,6 +35,18 @@ button.submit {
     color: rgb(249, 157, 28);
 }
 
+input {
+    padding: 10 20 10 20;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+select {
+    padding: 10 20 10 20;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
 .page-content {
     margin: 30 20 10 20;
 }
