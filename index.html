@@ -164,37 +164,37 @@
                 <h3 style="color: grey">Please list 3 references</h3>
                 <div class="reference-container">
                     <h4 style="color: black">Name</h4>
-                    <input type="text" name="name" required>
+                    <input type="text" name="reference1-name" required>
                     <h4 style="color: black">Relationship</h4>
-                    <input type="text" name="relationship" required>
+                    <input type="text" name="reference1-relationship" required>
                     <h4 style="color: black">Years Known</h4>
-                    <input type="text" name="years-known" required>
+                    <input type="text" name="reference1-years-known" required>
                     <h4 style="color: black">Phone #</h4>
-                    <input type="text" name="phone-num" required>
+                    <input type="text" name="reference1-phone-num" required>
                 </div>
                 <div class="reference-container">
                     <h4 style="color: black">Name</h4>
-                    <input type="text" name="name" required>
+                    <input type="text" name="reference2-name" required>
                     <h4 style="color: black">Relationship</h4>
-                    <input type="text" name="relationship" required>
+                    <input type="text" name="reference2-relationship" required>
                     <h4 style="color: black">Years Known</h4>
-                    <input type="text" name="years-known" required>
+                    <input type="text" name="reference2-years-known" required>
                     <h4 style="color: black">Phone #</h4>
-                    <input type="text" name="phone-num" required>
+                    <input type="text" name="reference2-phone-num" required>
                 </div>
                 <div class="reference-container">
                     <h4 style="color: black">Name</h4>
-                    <input type="text" name="name" required>
+                    <input type="text" name="reference3-name" required>
                     <h4 style="color: black">Relationship</h4>
-                    <input type="text" name="relationship" required>
+                    <input type="text" name="reference3-relationship" required>
                     <h4 style="color: black">Years Known</h4>
-                    <input type="text" name="years-known" required>
+                    <input type="text" name="reference3-years-known" required>
                     <h4 style="color: black">Phone #</h4>
-                    <input type="text" name="phone-num" required>
+                    <input type="text" name="reference3-phone-num" required>
                 </div>
             </div>
-            <button type="button" id="secondary-button" value="back" class="secondary-button">Back</button>
-            <button type="button" id="primary-button" value="next" class="primary-button">Next</button>
+            <button type="button" id="back-button" onclick="switchPage(-1)" value="back" class="secondary-button">Back</button>
+            <button type="button" id="continue-button" onclick="switchPage(+1)" value="next" class="primary-button">Next</button>
         </div>
         <script src="scripts.js"></script>
     </body>

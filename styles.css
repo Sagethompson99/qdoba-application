@@ -35,7 +35,6 @@ button.primary-button {
     padding-top: 20;
     padding-bottom: 20;
     text-align: center;
-    max-width: 400;
     margin: auto;
     display: block;
 }
@@ -50,9 +49,8 @@ button.secondary-button {
     padding-top: 20;
     padding-bottom: 20;
     text-align: center;
-    max-width: 400;
     margin: auto;
-    display: block;
+    display: none;
 }
 
 .information-header {
@@ -83,6 +81,7 @@ select {
 
 .page-content {
     margin: 30 20 10 20;
+    transition: height 0.3s;
 }
 
 .reference-container {
@@ -131,7 +130,7 @@ div #education-info-container {
     height: 0%;
 }
 
-div #refrences-container {
+div #references-container {
     display:none;
     height:0%;
 }
