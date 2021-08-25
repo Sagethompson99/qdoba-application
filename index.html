@@ -6,7 +6,7 @@
         <script src="https://kit.fontawesome.com/984a991b1b.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div style="max-width: 800; margin: auto;">
+        <div style="max-width: 1000; margin: auto">
             <img class="logo" src="images/logo.png">
             <h1 id="title" class="title">Job Application</h1>
             <div class="page-content" id="personal-info-container">
@@ -80,7 +80,7 @@
                 <input type="text" placeholder="Email" name="email" required>
                 <input type="text" placeholder="Phone (mobile)" name="mobile_number" required>
                 <input type="text" placeholder="Phone (home)" name="home_number" required>
-                <select name="state" required>
+                <select name="over16" required>
                     <option value="" disabled selected>Are you 16 or older?</option>
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
@@ -90,15 +90,48 @@
             <div class="page-content" id="job-preference-container">
                 <h2 class="information-header">What Would You Like to do at Qdoba?</h2>
                 <h3 style="color: grey">Position</h3>
+                <div style="display: flex; justify-content: space-around">
+                    <input type="checkbox" id="cook" name="position-cook">
+                    <label for="cook">Cook</label>
+
+                    <input type="checkbox" id="line-server" name="position-lineServer">
+                    <label for="line-server">Line Server</label>
+
+                    <input type="checkbox" id="delivery-driver" name="position-deliveryDriver">
+                    <label for="delivery-driver">Delivery Driver</label>
+
+                    <input type="checkbox" id="shift-supervisor" name="position-shiftSupervisor">
+                    <label for="shift-supervisor">Shift Supervisor</label>
+
+                    <input type="checkbox" id="management" name="position-management">
+                    <label for="management">Management</label>
+
+                    <input type="checkbox" id="restaurant-support-center" name="position-restaurantSupportCenter">
+                    <label for="restaurant-support-center">Restaurant Support Center</label>
+                </div>
                 <h3 style="color: grey">Pay</h3>
+                <div>
+                    <input type="text" id="salary" placeholder="$0.00" name="salary" required>
+                    <select name="salaryPeriod" required>
+                        <option value="salary-per-hour">Per Hour</option>
+                        <option value="salary-per-year">Per Year</option>
+                    </select>
+                </div>
                 <h3 style="color: grey">More Questions</h3>
+                <h4>When can you start?</h4>
+                <input type="date" name="when-can-you-start" required>
+                <h4>How did you hear about this opportunity?</h4>
+                <input type="text" name="how-did-you-hear-about-us"required>
+                <h4>Why are you interested in joining the Qdoba team?</h4>
+                <input type="text" name="interest-in-joining" required>
             </div>
 
             <div class="page-content" id="availability-container"></div>
             <div class="page-content" id="successful-qualities-container"></div>
             <div class="page-content" id="work-experience-container"></div>
             <div class="page-content" id="education-info-container"></div>
-            <button type="button" id="clickMe" value="clickMe" class="submit">Next</button>
+            <div class="page-content" id="references-container"></div>
+            <button type="button" id="submit" value="submit" class="submit">Next</button>
         </div>
         <script src="scripts.js"></script>
     </body>
