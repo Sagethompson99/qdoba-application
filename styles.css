@@ -84,7 +84,7 @@ select {
     transition: height 0.3s;
 }
 
-.reference-container {
+.grouped-container {
     background-color: rgb(238, 238, 238); 
     padding: 10 20 20 20;
     margin-bottom: 25;
@@ -94,9 +94,33 @@ select {
     display: inline-block;
 }
 
-.reference-container input {
+.grouped-container input {
     width: 80%;
     max-width: 350;
+}
+
+.wide-grouped-container {
+    background-color: rgb(238, 238, 238); 
+    padding: 10 20 20 20;
+    margin-bottom: 25;
+    border-radius: 8px;
+    width: calc(100% - 40px);
+}
+
+.wide-grouped-container input {
+    width: 80%;
+    max-width: 435;
+}
+
+.wide-grouped-container h4 {
+    width: 80%;
+    max-width: 435;
+}
+
+.wide-grouped-container div {
+    width: 80%;
+    max-width: 435;
+    display: inline-block;
 }
 
 span {
