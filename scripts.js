@@ -14,6 +14,8 @@ function switchPage(increment){
     if (currentPageIndex != 7){
 
         progressBar.style.width = ((100/7)*currentPageIndex) + "%";
+        document.getElementById("progress-text-container").style.width = ((100/7)*currentPageIndex) + "%";
+        document.getElementById("progressText").style.innerHTML = (((100/7)*currentPageIndex).toString + "%");
 
         var pages = document.getElementsByClassName('page-content');
         for (var i = 0; i < pages.length; i++) {

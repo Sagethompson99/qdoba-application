@@ -3,6 +3,7 @@
 html {
     margin: 0;
     padding: 0;
+    transition: all 0.2s;
 }
 
 body {
@@ -32,7 +33,7 @@ h3 {
 
 .outer-progress-bar {
     width: calc(100% - 30px);
-    margin: 30 15 0 15;
+    margin: 30 15 45 15;
     border-radius: 3px;
     height: 15px;
     background-color: rgb(236, 236, 236);
@@ -43,6 +44,8 @@ h3 {
     border-radius: 3px;
     height: 15px;
     background-color: rgb(249, 157, 28);
+    text-align: right;
+    transition: width 0.3s;
 }
 
 button.primary-button {
