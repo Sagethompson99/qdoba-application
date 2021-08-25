@@ -1,4 +1,7 @@
 currentPageIndex = 0;
+window.onload = function() {
+    switchPage(currentPageIndex);
+};
 
 function switchPage(increment){
     if(currentPageIndex + increment >= 0 && currentPageIndex + increment < 7)
@@ -6,8 +9,11 @@ function switchPage(increment){
 
     const pageIDs = ["personal-info-container", "job-preference-container", "availability-container", 
     "successful-qualities-container", "work-experience-container", "education-info-container", "references-container"];
+    var progressBar = document.getElementById("progressBar");   
 
     if (currentPageIndex != 7){
+
+        progressBar.style.width = ((100/7)*currentPageIndex) + "%";
 
         var pages = document.getElementsByClassName('page-content');
         for (var i = 0; i < pages.length; i++) {
@@ -29,6 +35,7 @@ function switchPage(increment){
                 document.getElementById("continue-button").innerHTML = "Next"; 
             }
         }  
+        window.scrollTo(0, 0);
     }
     else{
         //submit document

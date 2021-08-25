@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Lexend', sans-serif;
     margin: 0;
@@ -23,6 +28,21 @@ h4 {
 
 h3 {
     margin-bottom: 14px;
+}
+
+.outer-progress-bar {
+    width: calc(100% - 30px);
+    margin: 30 15 0 15;
+    border-radius: 3px;
+    height: 15px;
+    background-color: rgb(236, 236, 236);
+}
+
+.inner-progress-bar {
+    width: 0%;
+    border-radius: 3px;
+    height: 15px;
+    background-color: rgb(249, 157, 28);
 }
 
 button.primary-button {
@@ -85,7 +105,7 @@ select {
 }
 
 .grouped-container {
-    background-color: rgb(238, 238, 238); 
+    background-color: rgb(243, 243, 243); 
     padding: 10 20 20 20;
     margin-bottom: 15;
     border-radius: 8px;
@@ -100,7 +120,7 @@ select {
 }
 
 .wide-grouped-container {
-    background-color: rgb(238, 238, 238); 
+    background-color: rgb(243, 243, 243); 
     padding: 10 20 20 20;
     margin-bottom: 25;
     border-radius: 8px;
