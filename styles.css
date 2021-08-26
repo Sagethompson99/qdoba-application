@@ -144,6 +144,10 @@ select {
     max-width: 435;
 }
 
+.wide-grouped-container select {
+    width: 80%;
+}
+
 .wide-grouped-container h4 {
     width: 80%;
     max-width: 435;
