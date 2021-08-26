@@ -3,7 +3,7 @@ window.onload = function() {
     switchPage(currentPageIndex);
 };
 
-function switchPage(increment){
+function switchPage(increment) {
     if(currentPageIndex + increment >= 0 && currentPageIndex + increment <= 7)
         currentPageIndex += increment;
 
@@ -44,11 +44,12 @@ function switchPage(increment){
         document.getElementById("back-button").style.display = "none";
         document.getElementById("continue-button").style.display = "none"; 
 
-        //submit document
+        var form = document.getElementById("form");
+        form.submit();
     }
 
 function missingInfoCheck(){
-    
+
 }
 
 }

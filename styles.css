@@ -90,6 +90,15 @@ input {
     border: 1px solid rgb(184, 184, 184);
 }
 
+   /* input:invalid {
+        padding: 10 20 10 20;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        width: 100%;
+        max-width: 455;
+        border: 2px solid rgb(221, 80, 75);
+    } */
+
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
