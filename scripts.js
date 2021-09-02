@@ -39,17 +39,12 @@ function switchPage(increment) {
         window.scrollTo(0, 0);
     }
     else{
-        document.getElementById("application-complete-container").style.height = "auto";
         document.getElementById("application-complete-container").style.display = "block";
+        document.getElementById("application-complete-container").style.height = "auto";
         document.getElementById("back-button").style.display = "none";
-        document.getElementById("continue-button").style.display = "none"; 
-
+        document.getElementById("continue-button").style.display = "none";
         var form = document.getElementById("form");
         form.submit();
     }
-
-function missingInfoCheck(){
-
-}
 
 }

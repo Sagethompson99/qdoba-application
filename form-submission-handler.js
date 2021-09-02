@@ -69,11 +69,8 @@
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       xhr.onreadystatechange = function() {
           if (xhr.readyState === 4 && xhr.status === 200) {
-            form.reset();
-            document.getElementById("application-complete-container").style.height = "auto";
-            document.getElementById("application-complete-container").style.display = "block";
-            document.getElementById("back-button").style.display = "none";
-            document.getElementById("continue-button").style.display = "none"; 
+            document.getElementById('application-complete-container').style.display = 'block';
+            document.getElementById('application-complete-container').style.height = 'auto';
           }
       };
       // url encode form data for sending as post data
